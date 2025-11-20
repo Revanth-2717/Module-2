@@ -9,20 +9,13 @@ To write a Python program that defines a **lambda function** which takes two arg
 3. Call the function with the user inputs and print the result.
 
 ## 🧾 Program
+``` python
+z=int(input())
+f=lambda z:z*45
+print(f(z))
 ```
-add = lambda a, b: a + b
-
-
-a = int(input("Enter the first number: "))
-b = int(input("Enter the second number: "))
-
-
-print("The sum is:", add(a, b))
-```
-
-
 ## Output
-<img width="1027" height="366" alt="Screenshot 2025-10-18 230357" src="https://github.com/user-attachments/assets/dce10fcf-a3d5-4901-b414-5dd8669652f0" />
+![image](https://github.com/user-attachments/assets/071447c4-9e85-4fc3-8c40-89b0fee90c1c)
 
 ## Result
-The Python program that defines a **lambda function** which takes two arguments `a` and `b`, and returns their sum is executed successfully.
+Thus the python program which takes z as a parameter and returns z*45 is executed successfully.
